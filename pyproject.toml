@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "yolox-sahi"
+version = "0.1.0"
+description = ""
+authors = ["Nao-Y1996 <60519909+Nao-Y1996@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "2.2.2"
+torchvision = "0.17.2"
+sahi = "^0.11.18"
+
+[tool.poetry.group.dev.dependencies]
+notebook = "^7.2.1"
+ruff = "^0.5.6"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
